@@ -47,13 +47,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>ilsAppConfig</key>
-	<dict>
-		<key>appInfo</key>
-		<dict>
-			<key>ILSConnectEnvironment</key>
-			<string>pro</string>
-		</dict>
-	</dict>
 </dict>
 </plist>

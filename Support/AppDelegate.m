@@ -31,6 +31,10 @@
     // ****************************************************************************
     [LASHelpCenter install];
     
+    // By default, LASHelpCenter SDK check the new messages count for replies to current conversation and popup an alert.
+    // Uncommit the following line and disable the alert.
+    // [LASHelpCenter alertNewMessage:NO];
+    
     return YES;
 }
 

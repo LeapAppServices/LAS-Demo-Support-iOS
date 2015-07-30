@@ -2,7 +2,7 @@
 
 ## 介绍
 
-LASHelpCenter 的例子。LASHelpCenter 集成了用户帮助和反馈功能，这个例子演示怎么使用这些功能。
+这个项目演示了如何使用  LASHelpCenter 模块的用户帮助和反馈功能。
 
 ## 演示功能
 

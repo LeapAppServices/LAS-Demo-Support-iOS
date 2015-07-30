@@ -1,15 +1,15 @@
 # LAS-Demo-Support-iOS
 
-## 介绍
+## Overview
 
-LASHelpCenter 的例子。LASHelpCenter 集成了用户帮助和反馈功能，这个例子演示怎么使用这些功能。
+The project teaches you how to use FAQ and Feedback function in LASHelpCenter.
 
-## 演示功能
+## Features
 
-- 展示 FAQ
-- 用户反馈
+- Show FAQ
+- Users Feedback
 
-## 效果截图
+## Screenshots
 
 ![](docs/images/1.png)
 ![](docs/images/2.png)
@@ -18,36 +18,37 @@ LASHelpCenter 的例子。LASHelpCenter 集成了用户帮助和反馈功能，�
 ![](docs/images/5.png)
 ![](docs/images/6.png)
 
-## 如何运行
+## How to Run
 
-- 克隆这个仓库，然后打开项目
-- 在 leap.as 控制台中创建一个应用，下面称他为 LAS 应用。如果已经创建，跳过这个步骤。
-- 在 `AppDelegate.` 中填写 LAS 应用的 applicationId 和 clientKey.
-- 按下 Commond + R 按钮运行
+- Clone the repository and open the project.
+- Create an app in leap.as console and name it LAS App. You can skip this step if you've already created one. 
+- Add your applicationID and clientKey in `AppDelegate.`. 
+- Press Command + R to run it. 
 
-## 项目依赖
+## Project Dependencies
 
-- LAS.framework  LAS iOS SDK 的基础模块，LAS 所有功能都依赖于该模块
+- Basic module of LAS.framework  LAS iOS SDK and relied by all LAS functions. 
 - LASHelpCenter.embededframework
 
-## 用法
+## Usage
 
-### 显示 FAQ 界面
+### Show FAQ Interface
 
 `[[LASHelpCenter sharedInstance] showFAQs:currentDisplayingViewController];`
 
-### 显示用户反馈界面
+### Show Feedback Interface
 
 `[[LASHelpCenter sharedInstance] showConversation:currentDisplayingViewController];`
 
-### 新消息提醒
+### New Message Alert
 
-默认配置下，每次应用进入前台时 (WillEnterForeground)，会联网检查是否有未读消息。如果有，会弹窗提醒用户。你也可以在应用启动时关闭这个提醒：
+The default configuration enables network connection and will check if there is any unread messages everytime the app enters Foreground. If so, there will be a popout. You can close this reminder when run the app.
 
 `[LASHelpCenter alertNewMessage:NO];`
 
-## 文档
+## Documents
 
 FAQ: https://leap.as/docs/appFaqs/ios.html
-用户反馈：https://leap.as/docs/appIssues/ios.html
+
+Feedback：https://leap.as/docs/appIssues/ios.html
 

@@ -42,7 +42,7 @@ The project teaches you how to use FAQ and Feedback function in LASHelpCenter.
 
 ### New Message Alert
 
-The default configuration enables network connection and will check if there is any unread messages everytime the app enters Foreground. If so, there will be a popout. You can close this reminder when run the app.
+The default configuration enables network connection and will check if there is any unread messages everytime the app enters Foreground. If so, there will be a popup. You can close this reminder when run the app.
 
 `[LASHelpCenter alertNewMessage:NO];`
 

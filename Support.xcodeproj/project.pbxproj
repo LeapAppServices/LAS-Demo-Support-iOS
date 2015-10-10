@@ -7,45 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D8C6D471B424F7C00036055 /* LAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8C6D401B424F7C00036055 /* LAS.framework */; };
-		9D8C6D481B424F7C00036055 /* LASHelpCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8C6D421B424F7C00036055 /* LASHelpCenter.framework */; };
-		9D8C6D491B424F7C00036055 /* LASHCImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D441B424F7C00036055 /* LASHCImages.bundle */; };
-		9D8C6D4A1B424F7C00036055 /* LASHCLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D451B424F7C00036055 /* LASHCLocalization.bundle */; };
-		9D8C6D4B1B424F7C00036055 /* LASHCThemes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D461B424F7C00036055 /* LASHCThemes.bundle */; };
-		9D8C6D4D1B4263B300036055 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8C6D4C1B4263B300036055 /* libz.dylib */; };
 		9D8C6D531B426B4000036055 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D4F1B426B4000036055 /* avatar.png */; };
 		9D8C6D541B426B4000036055 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D501B426B4000036055 /* avatar@2x.png */; };
 		9D8C6D551B426B4000036055 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D511B426B4000036055 /* paper.png */; };
 		9D8C6D561B426B4000036055 /* paper_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D521B426B4000036055 /* paper_@2X.png */; };
+		9DA8D9CC1BC8F80600644D48 /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C51BC8F80600644D48 /* MaxLeap.framework */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9CD1BC8F80600644D48 /* MLHelpCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C71BC8F80600644D48 /* MLHelpCenter.framework */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9CE1BC8F80600644D48 /* MLHelpCenterImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9C91BC8F80600644D48 /* MLHelpCenterImages.bundle */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9CF1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CA1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9D01BC8F80600644D48 /* MLHelpCenterThemes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CB1BC8F80600644D48 /* MLHelpCenterThemes.bundle */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9D21BC8F8CD00644D48 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9D11BC8F8CD00644D48 /* libsqlite3.tbd */; };
 		9DF530501ADBA09200CAE5C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5304F1ADBA09200CAE5C4 /* main.m */; };
 		9DF530531ADBA09200CAE5C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF530521ADBA09200CAE5C4 /* AppDelegate.m */; };
 		9DF530561ADBA09200CAE5C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF530551ADBA09200CAE5C4 /* ViewController.m */; };
 		9DF5305B1ADBA09200CAE5C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF5305A1ADBA09200CAE5C4 /* Images.xcassets */; };
 		9DF530771ADBA14700CAE5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF530751ADBA14700CAE5C4 /* Main.storyboard */; };
 		9DF530781ADBA14700CAE5C4 /* SupportLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF530761ADBA14700CAE5C4 /* SupportLaunchScreen.xib */; };
-		9DF530831ADBA4AC00CAE5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530821ADBA4AC00CAE5C4 /* Foundation.framework */; };
-		9DF530851ADBA4B000CAE5C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530841ADBA4B000CAE5C4 /* UIKit.framework */; };
-		9DF530871ADBA4B600CAE5C4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530861ADBA4B600CAE5C4 /* libsqlite3.dylib */; };
 		9DF530891ADBA4BC00CAE5C4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530881ADBA4BC00CAE5C4 /* CoreTelephony.framework */; };
 		9DF5308B1ADBA4C300CAE5C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5308A1ADBA4C300CAE5C4 /* SystemConfiguration.framework */; };
 		9DF5308D1ADBA4D200CAE5C4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5308C1ADBA4D200CAE5C4 /* MobileCoreServices.framework */; };
-		9DF5308F1ADBA4E100CAE5C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5308E1ADBA4E100CAE5C4 /* CoreGraphics.framework */; };
-		9DF530911ADBA4EC00CAE5C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530901ADBA4EC00CAE5C4 /* Security.framework */; };
-		9DF530931ADBA4F800CAE5C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530921ADBA4F800CAE5C4 /* CoreLocation.framework */; };
-		9DF530951ADBA50200CAE5C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF530941ADBA50200CAE5C4 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D8C6D401B424F7C00036055 /* LAS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LAS.framework; path = Frameworks/LAS.framework; sourceTree = "<group>"; };
-		9D8C6D421B424F7C00036055 /* LASHelpCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LASHelpCenter.framework; sourceTree = "<group>"; };
-		9D8C6D441B424F7C00036055 /* LASHCImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LASHCImages.bundle; sourceTree = "<group>"; };
-		9D8C6D451B424F7C00036055 /* LASHCLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LASHCLocalization.bundle; sourceTree = "<group>"; };
-		9D8C6D461B424F7C00036055 /* LASHCThemes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LASHCThemes.bundle; sourceTree = "<group>"; };
-		9D8C6D4C1B4263B300036055 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		9D8C6D4F1B426B4000036055 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		9D8C6D501B426B4000036055 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
 		9D8C6D511B426B4000036055 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
 		9D8C6D521B426B4000036055 /* paper_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper_@2X.png"; sourceTree = "<group>"; };
+		9DA8D9C51BC8F80600644D48 /* MaxLeap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxLeap.framework; path = Frameworks/MaxLeap.framework; sourceTree = "<group>"; };
+		9DA8D9C71BC8F80600644D48 /* MLHelpCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MLHelpCenter.framework; sourceTree = "<group>"; };
+		9DA8D9C91BC8F80600644D48 /* MLHelpCenterImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLHelpCenterImages.bundle; sourceTree = "<group>"; };
+		9DA8D9CA1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLHelpCenterLocalizable.bundle; sourceTree = "<group>"; };
+		9DA8D9CB1BC8F80600644D48 /* MLHelpCenterThemes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLHelpCenterThemes.bundle; sourceTree = "<group>"; };
+		9DA8D9D11BC8F8CD00644D48 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9DF5304A1ADBA09200CAE5C4 /* Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Support.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF5304E1ADBA09200CAE5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DF5304F1ADBA09200CAE5C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,16 +49,9 @@
 		9DF5305A1ADBA09200CAE5C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DF530751ADBA14700CAE5C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF530761ADBA14700CAE5C4 /* SupportLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SupportLaunchScreen.xib; path = Base.lproj/SupportLaunchScreen.xib; sourceTree = "<group>"; };
-		9DF530821ADBA4AC00CAE5C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9DF530841ADBA4B000CAE5C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9DF530861ADBA4B600CAE5C4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		9DF530881ADBA4BC00CAE5C4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9DF5308A1ADBA4C300CAE5C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9DF5308C1ADBA4D200CAE5C4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		9DF5308E1ADBA4E100CAE5C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9DF530901ADBA4EC00CAE5C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		9DF530921ADBA4F800CAE5C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		9DF530941ADBA50200CAE5C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,45 +59,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8C6D4D1B4263B300036055 /* libz.dylib in Frameworks */,
-				9DF530951ADBA50200CAE5C4 /* StoreKit.framework in Frameworks */,
-				9DF530931ADBA4F800CAE5C4 /* CoreLocation.framework in Frameworks */,
-				9DF530911ADBA4EC00CAE5C4 /* Security.framework in Frameworks */,
-				9DF5308F1ADBA4E100CAE5C4 /* CoreGraphics.framework in Frameworks */,
+				9DA8D9D21BC8F8CD00644D48 /* libsqlite3.tbd in Frameworks */,
+				9DA8D9CD1BC8F80600644D48 /* MLHelpCenter.framework in Frameworks */,
 				9DF5308D1ADBA4D200CAE5C4 /* MobileCoreServices.framework in Frameworks */,
-				9D8C6D481B424F7C00036055 /* LASHelpCenter.framework in Frameworks */,
+				9DA8D9CC1BC8F80600644D48 /* MaxLeap.framework in Frameworks */,
 				9DF5308B1ADBA4C300CAE5C4 /* SystemConfiguration.framework in Frameworks */,
 				9DF530891ADBA4BC00CAE5C4 /* CoreTelephony.framework in Frameworks */,
-				9D8C6D471B424F7C00036055 /* LAS.framework in Frameworks */,
-				9DF530871ADBA4B600CAE5C4 /* libsqlite3.dylib in Frameworks */,
-				9DF530851ADBA4B000CAE5C4 /* UIKit.framework in Frameworks */,
-				9DF530831ADBA4AC00CAE5C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D8C6D411B424F7C00036055 /* LASHelpCenter.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				9D8C6D421B424F7C00036055 /* LASHelpCenter.framework */,
-				9D8C6D431B424F7C00036055 /* Resources */,
-			);
-			name = LASHelpCenter.embeddedframework;
-			path = Frameworks/LASHelpCenter.embeddedframework;
-			sourceTree = "<group>";
-		};
-		9D8C6D431B424F7C00036055 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9D8C6D441B424F7C00036055 /* LASHCImages.bundle */,
-				9D8C6D451B424F7C00036055 /* LASHCLocalization.bundle */,
-				9D8C6D461B424F7C00036055 /* LASHCThemes.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		9D8C6D4E1B426B4000036055 /* Shared Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +80,26 @@
 				9D8C6D521B426B4000036055 /* paper_@2X.png */,
 			);
 			path = "Shared Resources";
+			sourceTree = "<group>";
+		};
+		9DA8D9C61BC8F80600644D48 /* MLHelpCenter.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8D9C71BC8F80600644D48 /* MLHelpCenter.framework */,
+				9DA8D9C81BC8F80600644D48 /* Resources */,
+			);
+			name = MLHelpCenter.embeddedframework;
+			path = Frameworks/MLHelpCenter.embeddedframework;
+			sourceTree = "<group>";
+		};
+		9DA8D9C81BC8F80600644D48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8D9C91BC8F80600644D48 /* MLHelpCenterImages.bundle */,
+				9DA8D9CA1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle */,
+				9DA8D9CB1BC8F80600644D48 /* MLHelpCenterThemes.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		9DF530411ADBA09200CAE5C4 = {
@@ -143,13 +122,13 @@
 		9DF5304C1ADBA09200CAE5C4 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				9DF530751ADBA14700CAE5C4 /* Main.storyboard */,
-				9DF530761ADBA14700CAE5C4 /* SupportLaunchScreen.xib */,
 				9DF530511ADBA09200CAE5C4 /* AppDelegate.h */,
 				9DF530521ADBA09200CAE5C4 /* AppDelegate.m */,
 				9DF530541ADBA09200CAE5C4 /* ViewController.h */,
 				9DF530551ADBA09200CAE5C4 /* ViewController.m */,
+				9DF530751ADBA14700CAE5C4 /* Main.storyboard */,
 				9DF5305A1ADBA09200CAE5C4 /* Images.xcassets */,
+				9DF530761ADBA14700CAE5C4 /* SupportLaunchScreen.xib */,
 				9DF5304D1ADBA09200CAE5C4 /* Supporting Files */,
 			);
 			path = Support;
@@ -168,19 +147,12 @@
 		9DF5307B1ADBA18E00CAE5C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D8C6D4C1B4263B300036055 /* libz.dylib */,
-				9D8C6D401B424F7C00036055 /* LAS.framework */,
-				9D8C6D411B424F7C00036055 /* LASHelpCenter.embeddedframework */,
-				9DF530941ADBA50200CAE5C4 /* StoreKit.framework */,
-				9DF530921ADBA4F800CAE5C4 /* CoreLocation.framework */,
-				9DF530901ADBA4EC00CAE5C4 /* Security.framework */,
-				9DF5308E1ADBA4E100CAE5C4 /* CoreGraphics.framework */,
+				9DA8D9D11BC8F8CD00644D48 /* libsqlite3.tbd */,
+				9DA8D9C51BC8F80600644D48 /* MaxLeap.framework */,
+				9DA8D9C61BC8F80600644D48 /* MLHelpCenter.embeddedframework */,
 				9DF5308C1ADBA4D200CAE5C4 /* MobileCoreServices.framework */,
 				9DF5308A1ADBA4C300CAE5C4 /* SystemConfiguration.framework */,
 				9DF530881ADBA4BC00CAE5C4 /* CoreTelephony.framework */,
-				9DF530861ADBA4B600CAE5C4 /* libsqlite3.dylib */,
-				9DF530841ADBA4B000CAE5C4 /* UIKit.framework */,
-				9DF530821ADBA4AC00CAE5C4 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,7 +183,7 @@
 		9DF530421ADBA09200CAE5C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ilegendsoft;
 				TargetAttributes = {
 					9DF530491ADBA09200CAE5C4 = {
@@ -242,16 +214,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8D9CF1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle in Resources */,
 				9DF530781ADBA14700CAE5C4 /* SupportLaunchScreen.xib in Resources */,
+				9DA8D9D01BC8F80600644D48 /* MLHelpCenterThemes.bundle in Resources */,
 				9D8C6D541B426B4000036055 /* avatar@2x.png in Resources */,
+				9DA8D9CE1BC8F80600644D48 /* MLHelpCenterImages.bundle in Resources */,
 				9D8C6D531B426B4000036055 /* avatar.png in Resources */,
 				9DF530771ADBA14700CAE5C4 /* Main.storyboard in Resources */,
 				9DF5305B1ADBA09200CAE5C4 /* Images.xcassets in Resources */,
 				9D8C6D551B426B4000036055 /* paper.png in Resources */,
-				9D8C6D4A1B424F7C00036055 /* LASHCLocalization.bundle in Resources */,
 				9D8C6D561B426B4000036055 /* paper_@2X.png in Resources */,
-				9D8C6D491B424F7C00036055 /* LASHCImages.bundle in Resources */,
-				9D8C6D4B1B424F7C00036055 /* LASHCThemes.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +264,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -362,7 +335,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/LASHelpCenter.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/MLHelpCenter.embeddedframework",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -371,6 +344,7 @@
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.leap.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Support;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelpCenterDemo/HelpCenterDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -388,7 +362,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/LASHelpCenter.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/MLHelpCenter.embeddedframework",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,6 +371,7 @@
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.leap.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Support;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelpCenterDemo/HelpCenterDemo-Bridging-Header.h";
 			};

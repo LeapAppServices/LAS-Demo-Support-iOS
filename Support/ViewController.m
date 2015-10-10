@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <LASHelpCenter/LASHelpCenter.h>
+#import <MLHelpCenter/MLHelpCenter.h>
 
 //RGB color macro
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
@@ -22,7 +22,7 @@ UINavigationControllerDelegate
 
 @implementation ViewController {
     IBOutlet UIScrollView *_scrollView;
-    NSArray *_hsFeatures;
+    NSArray *_hcFeatures;
 }
 
 - (void)awakeFromNib {
@@ -38,7 +38,7 @@ UINavigationControllerDelegate
     
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"paper"]]];
     __block CGFloat prevHeight = 0;
-    [_hsFeatures enumerateObjectsUsingBlock:^(id featuresDict, NSUInteger idx, BOOL *stop) {
+    [_hcFeatures enumerateObjectsUsingBlock:^(id featuresDict, NSUInteger idx, BOOL *stop) {
         CGSize maxTxtSize = CGSizeMake(_scrollView.frame.size.width - 40,9999);
         CGSize minTxtSize = CGSizeMake(_scrollView.frame.size.width - 40, 120);
         if([[featuresDict valueForKey:@"description"] length] > 1)
@@ -81,7 +81,7 @@ UINavigationControllerDelegate
     [super viewDidLayoutSubviews];
     
     __block CGFloat prevHeight = 0;
-    [_hsFeatures enumerateObjectsUsingBlock:^(id featuresDict, NSUInteger idx, BOOL *stop) {
+    [_hcFeatures enumerateObjectsUsingBlock:^(id featuresDict, NSUInteger idx, BOOL *stop) {
         CGSize maxTxtSize = CGSizeMake(_scrollView.frame.size.width - 40,9999);
         CGSize minTxtSize = CGSizeMake(_scrollView.frame.size.width - 40, 120);
         if([[featuresDict valueForKey:@"description"] length] > 1)
@@ -111,18 +111,18 @@ UINavigationControllerDelegate
     UIButton *button = (UIButton *) sender;
     switch (button.tag) {
         case HC_SHOW_HELP:
-            [[LASHelpCenter sharedInstance] showFAQs:self];
+            [[MLHelpCenter sharedInstance] showFAQs:self];
             break;
         case HC_SHOW_CONTACTUS:
-            [[LASHelpCenter sharedInstance] showConversation:self];
+            [[MLHelpCenter sharedInstance] showConversation:self];
             break;
         case HC_SHOW_FAQSECTION:
             //The PUBLISH-ID will be the id of the FAQ section which is shown under FAQs (leap.as/faq/apps/_yourapplicationid_#en/_faqsectionpublishid_).
-            [[LASHelpCenter sharedInstance] showFAQSection:@"<PUBLISH-ID>" withController:self];
+            [[MLHelpCenter sharedInstance] showFAQSection:@"<PUBLISH-ID>" withController:self];
             break;
         case HC_SHOW_SINGLEFAQ:
             //The PUBLISH-ID will be the id of the FAQ which is shown under FAQs (leap.as/faq/apps/_yourApplicationId_#en/_faqSectionId_/edit/_faqItemId_)
-            [[LASHelpCenter sharedInstance] showSingleFAQ:@"<PUBLISH-ID>" withController:self];
+            [[MLHelpCenter sharedInstance] showSingleFAQ:@"<PUBLISH-ID>" withController:self];
             break;
         default:
             break;
@@ -136,8 +136,8 @@ UINavigationControllerDelegate
 static NSArray *hsFeatures = nil;
 
 - (void) initAllFeatures {
-    if (_hsFeatures == nil) {
-        _hsFeatures = @[
+    if (_hcFeatures == nil) {
+        _hcFeatures = @[
                         @{
                             @"title":@"Help",
                             @"description":@"You can use the showFAQs: api call to show the LASHelpCenter screen with only the faq sections with search, you can use this api. This screen will not show the issues reported by the user.",

@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <LASHelpCenter/LASHelpCenter.h>
-#import <LAS/LAS.h>
+#import <MaxLeap/MaxLeap.h>
+#import <MLHelpCenter/MLHelpCenter.h>
 
 @interface AppDelegate ()
 
@@ -21,19 +21,19 @@
     // Override point for customization after application launch.
     
     // ****************************************************************************
-    // Uncommit fill in with your LAS credentials:
+    // Uncommit fill in with your MaxLeap credentials:
+#error Please fill in with your MaxLeap credentials
+    // [MaxLeap setApplicationId:@"APPLICATION_ID_HERE" clientKey:@"CLIENT_KEY_HERE"];
     // ****************************************************************************
-#warning Please fill in with your LAS credentials
-    // [LAS setApplicationId:@"APPLICATION_ID_HERE" clientKey:@"CLIENT_KEY_HERE"];
     
     // ****************************************************************************
     // HelpCenter initialize:
+    [MLHelpCenter install];
     // ****************************************************************************
-    [LASHelpCenter install];
     
-    // By default, LASHelpCenter SDK check the new messages count for replies to current conversation and popup an alert.
+    // By default, MLHelpCenter check the new messages count for replies to current conversation and popup an alert.
     // Uncommit the following line and disable the alert.
-    // [LASHelpCenter alertNewMessage:NO];
+    // [MLHelpCenter alertNewMessage:NO];
     
     return YES;
 }

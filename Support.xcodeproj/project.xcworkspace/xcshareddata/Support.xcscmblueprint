@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4D582F7A3254EBC13D919F507CC72B9BEEC7284" : 0,
+    "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6EF214FC-F3B1-40DA-9B64-8E407093E3F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4D582F7A3254EBC13D919F507CC72B9BEEC7284" : "ilslib",
+    "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13" : "LAS-Demo-Support-iOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Support",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Support.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LeapAppServices\/LAS-Demo-Support-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.ilegendsoft.com:iosdev\/ilslib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4D582F7A3254EBC13D919F507CC72B9BEEC7284"
+    }
+  ]
+}

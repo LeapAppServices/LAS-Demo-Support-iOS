@@ -11,12 +11,12 @@ The project teaches you how to use FAQ and Feedback function in MLHelpCenter.
 
 ## Screenshots
 
-![](docs/images/1.png)
-![](docs/images/2.png)
-![](docs/images/3.png)
-![](docs/images/4.png)
-![](docs/images/5.png)
-![](docs/images/6.png)
+![](../images/1.png)
+![](../images/2.png)
+![](../images/3.png)
+![](../images/4.png)
+![](../images/5.png)
+![](../images/6.png)
 
 ## How to Run
 

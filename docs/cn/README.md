@@ -11,12 +11,12 @@ MLHelpCenter 的例子。MLHelpCenter 集成了用户帮助和反馈功能，这
 
 ## 效果截图
 
-![](docs/images/1.png)
-![](docs/images/2.png)
-![](docs/images/3.png)
-![](docs/images/4.png)
-![](docs/images/5.png)
-![](docs/images/6.png)
+![](../images/1.png)
+![](../images/2.png)
+![](../images/3.png)
+![](../images/4.png)
+![](../images/5.png)
+![](../images/6.png)
 
 ## 如何运行
 

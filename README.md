@@ -1,8 +1,8 @@
-# LAS-Demo-Support-iOS
+# Demo-Support-iOS
 
 ## Overview
 
-The project teaches you how to use FAQ and Feedback function in LASHelpCenter.
+The project teaches you how to use FAQ and Feedback function in MLHelpCenter.
 
 ## Features
 
@@ -21,30 +21,30 @@ The project teaches you how to use FAQ and Feedback function in LASHelpCenter.
 ## How to Run
 
 - Clone the repository and open the project.
-- Create an app in leap.as console and name it LAS App. You can skip this step if you've already created one. 
+- Create an app in leap.as console and name it MaxLeap App. You can skip this step if you've already created one. 
 - Add your applicationID and clientKey in `AppDelegate.`. 
-- Press Command + R to run it. 
+- Press <kbd>Command</kbd> + <kbd>R</kbd> to run it. 
 
 ## Project Dependencies
 
-- Basic module of LAS.framework  LAS iOS SDK and relied by all LAS functions. 
-- LASHelpCenter.embededframework
+- `MaxLeap.framework` -- Basic module of MaxLeap iOS SDK and all other MaxLeap modules are build on it. 
+- `MLHelpCenter.embededframework`
 
 ## Usage
 
 ### Show FAQ Interface
 
-`[[LASHelpCenter sharedInstance] showFAQs:currentDisplayingViewController];`
+`[[MLHelpCenter sharedInstance] showFAQs:currentDisplayingViewController];`
 
 ### Show Feedback Interface
 
-`[[LASHelpCenter sharedInstance] showConversation:currentDisplayingViewController];`
+`[[MLHelpCenter sharedInstance] showConversation:currentDisplayingViewController];`
 
 ### New Message Alert
 
 The default configuration enables network connection and will check if there is any unread messages everytime the app enters Foreground. If so, there will be a popup. You can close this reminder when run the app.
 
-`[LASHelpCenter alertNewMessage:NO];`
+`[MLHelpCenter alertNewMessage:NO];`
 
 ## Documents
 

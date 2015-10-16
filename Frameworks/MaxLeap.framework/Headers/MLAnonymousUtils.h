@@ -13,7 +13,7 @@
 #endif
 
 /*!
- Provides utility functions for working with Anonymously logged-in users.  Anonymous users have some unique characteristics:
+ Methods for working with Anonymously logged-in users.  Anonymous users have some unique characteristics:
  <ul>
  <li>Anonymous users don't need a user name or password.</li>
  <li>Once logged out, an anonymous user cannot be recovered.</li>

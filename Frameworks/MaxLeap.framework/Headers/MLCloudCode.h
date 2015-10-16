@@ -13,7 +13,7 @@
 #endif
 
 /*!
- The `MLCloudCode` class provides methods for interacting with MaxLeap Functions.
+ The `MLCloudCode` class provides methods for interacting with MaxLeap Cloud Functions.
  */
 @interface MLCloudCode : NSObject
 

@@ -58,6 +58,8 @@
 
 /**
  * Send this email.
+ *
+ * @param block The block to excute after email sending finish.
  */
 - (void)sendInBackgroundWithBlock:(MLBooleanResultBlock)block;
 

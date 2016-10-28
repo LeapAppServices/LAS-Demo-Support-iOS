@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6EF214FC-F3B1-40DA-9B64-8E407093E3F5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "E4D582F7A3254EBC13D919F507CC72B9BEEC7284" : "ilslib",
-    "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13" : "LAS-Demo-Support-iOS"
+    "6CB5B3FC018FB7775E1B5E73A21AE2A6164A8B13" : "Demo-Support-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Support",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

@@ -11,11 +11,11 @@
 		9D8C6D541B426B4000036055 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D501B426B4000036055 /* avatar@2x.png */; };
 		9D8C6D551B426B4000036055 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D511B426B4000036055 /* paper.png */; };
 		9D8C6D561B426B4000036055 /* paper_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C6D521B426B4000036055 /* paper_@2X.png */; };
-		9DA8D9CC1BC8F80600644D48 /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C51BC8F80600644D48 /* MaxLeap.framework */; settings = {ASSET_TAGS = (); }; };
-		9DA8D9CD1BC8F80600644D48 /* MLHelpCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C71BC8F80600644D48 /* MLHelpCenter.framework */; settings = {ASSET_TAGS = (); }; };
-		9DA8D9CE1BC8F80600644D48 /* MLHelpCenterImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9C91BC8F80600644D48 /* MLHelpCenterImages.bundle */; settings = {ASSET_TAGS = (); }; };
-		9DA8D9CF1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CA1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle */; settings = {ASSET_TAGS = (); }; };
-		9DA8D9D01BC8F80600644D48 /* MLHelpCenterThemes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CB1BC8F80600644D48 /* MLHelpCenterThemes.bundle */; settings = {ASSET_TAGS = (); }; };
+		9DA8D9CC1BC8F80600644D48 /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C51BC8F80600644D48 /* MaxLeap.framework */; };
+		9DA8D9CD1BC8F80600644D48 /* MLHelpCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9C71BC8F80600644D48 /* MLHelpCenter.framework */; };
+		9DA8D9CE1BC8F80600644D48 /* MLHelpCenterImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9C91BC8F80600644D48 /* MLHelpCenterImages.bundle */; };
+		9DA8D9CF1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CA1BC8F80600644D48 /* MLHelpCenterLocalizable.bundle */; };
+		9DA8D9D01BC8F80600644D48 /* MLHelpCenterThemes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8D9CB1BC8F80600644D48 /* MLHelpCenterThemes.bundle */; };
 		9DA8D9D21BC8F8CD00644D48 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA8D9D11BC8F8CD00644D48 /* libsqlite3.tbd */; };
 		9DF530501ADBA09200CAE5C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5304F1ADBA09200CAE5C4 /* main.m */; };
 		9DF530531ADBA09200CAE5C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF530521ADBA09200CAE5C4 /* AppDelegate.m */; };
@@ -183,7 +183,7 @@
 		9DF530421ADBA09200CAE5C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ilegendsoft;
 				TargetAttributes = {
 					9DF530491ADBA09200CAE5C4 = {
@@ -256,8 +256,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -300,8 +302,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -342,7 +346,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = Support/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "as.leap.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Support;
@@ -369,7 +373,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = Support/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "as.leap.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Support;
